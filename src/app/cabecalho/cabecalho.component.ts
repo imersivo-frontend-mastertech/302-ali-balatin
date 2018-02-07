@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CabecalhoComponent implements OnInit {
 
+  titulo = 'Ali Balatin!!!';
+
   constructor() { }
 
   ngOnInit() {
