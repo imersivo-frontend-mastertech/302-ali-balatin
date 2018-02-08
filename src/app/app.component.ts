@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
 
+  mostrarCta = false;
+
   produtos = [
     {
       nome: "Polystation",
@@ -30,4 +32,12 @@ export class AppComponent {
       imagem: "assets/mp250.jpg"
     }
   ];
+
+  constructor(){
+    let sorteio = Math.ceil(Math.random() * 100);
+
+    if(sorteio > 50){
+      this.mostrarCta = true;
+    }
+  }
 }

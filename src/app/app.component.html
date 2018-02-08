@@ -2,8 +2,14 @@
 
 <app-carrossel></app-carrossel>
 
+<app-cta *ngIf="mostrarCta"></app-cta>
+
+<marquee>Ligue Djá!</marquee>
+
 <section>
   <app-produto *ngFor="let produto of produtos"
   nome="{{produto.nome}}" valor="{{produto.valor}}" imagem="{{produto.imagem}}">
   </app-produto>
 </section>
+
+<app-modal></app-modal>

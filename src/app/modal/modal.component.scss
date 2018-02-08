@@ -1,0 +1,22 @@
+div{
+    position: absolute;
+    top: 80px;
+    background-color: white;
+    padding: 30px;
+    border: 2px solid #aaa;
+    font-size: 48px;
+    border-radius: 20px;
+    width: 50%;
+    left: 23%;
+    transition: 1s;
+    transform: translateY(-200%) rotate(900deg);
+}
+
+div.ativa{
+    transform: translateY(0%) rotate(0deg);
+}
+
+p{
+    font-weight: bold;
+    color: red;
+}
