@@ -17,22 +17,17 @@ export class AppComponent {
     {
       nome: "Hiphone",
       valor: "R$ 800,00",
-      imagem: "assets/polystation.jpg"
+      imagem: "assets/hiphone.jpg"
     },
     {
       nome: "HiWatch",
       valor: "R$ 600,00",
-      imagem: "assets/polystation.jpg"
+      imagem: "assets/hiwatch.jpg"
     },
     {
       nome: "Mp250",
       valor: "R$ 300,00",
-      imagem: "assets/polystation.jpg"
-    },
-    {
-      nome: "Computador Super",
-      valor: "R$ 2300,00",
-      imagem: "assets/polystation.jpg"
+      imagem: "assets/mp250.jpg"
     }
   ];
 }
